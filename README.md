@@ -1,5 +1,9 @@
-# README.md
-
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
+![RDS](https://img.shields.io/badge/Amazon-RDS-blue)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
+![EC2](https://img.shields.io/badge/Amazon-EC2-orange)
+![VPC](https://img.shields.io/badge/AWS-VPC-red)
+![Multi-AZ](https://img.shields.io/badge/Multi--AZ-High_Availability-green)
 # AWS RDS Multi-AZ Lab
 
 Hands-on AWS lab focused on deploying a highly available MySQL database using Amazon RDS Multi-AZ, VPC networking, DB subnet groups, and Security Groups integration between EC2 and RDS.
