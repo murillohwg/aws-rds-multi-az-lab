@@ -136,19 +136,6 @@ After configuration, the application successfully persisted data inside the RDS 
 
 ---
 
-# Security Concepts Learned
-
-This lab demonstrates several important AWS security practices:
-
-- Principle of least privilege
-- Private database deployment
-- Security Group-based access control
-- Database isolation inside private subnets
-- Multi-AZ high availability architecture
-- Controlled EC2 ↔ RDS communication
-
----
-
 # Multi-AZ Architecture
 
 Amazon RDS Multi-AZ automatically creates:
@@ -181,31 +168,4 @@ During this lab, the following concepts were practiced:
 
 ---
 
-# Repository Structure
 
-```text
-aws-rds-multiaz-lab/
-│
-├── images/
-├── README.md
-└── security-analysis.md
-```
-
----
-
-# Tags
-
-`aws` `amazon-rds` `mysql` `multi-az` `vpc` `security-groups` `ec2` `cloud-computing` `aws-labs`
-
----
-
-# Badges
-
-```markdown
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
-![RDS](https://img.shields.io/badge/Amazon-RDS-blue)
-![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
-![EC2](https://img.shields.io/badge/Amazon-EC2-orange)
-![VPC](https://img.shields.io/badge/AWS-VPC-red)
-![Multi-AZ](https://img.shields.io/badge/Multi--AZ-High_Availability-green)
-```
