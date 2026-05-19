@@ -8,21 +8,7 @@ Hands-on AWS lab focused on deploying a highly available MySQL database using Am
 
 ## Architecture Overview
 
-```text
-User Browser
-      │
-      ▼
-EC2 Web Application
-(Web Security Group)
-      │
-      ▼
-Amazon RDS MySQL (Primary)
-(DB Security Group)
-      │
-Synchronous Replication
-      ▼
-Amazon RDS MySQL (Standby - Multi-AZ)
-```
+![Architecture](images/00-architecture.png)
 
 ---
 
